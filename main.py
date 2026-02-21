@@ -53,7 +53,7 @@ COLORS   = {"AMZN": "#FF9900", "AAPL": "#555555", "GOOG": "#4285F4",
 # ─────────────────────────────────────────────────────────────────────────────
 # 0.  CONFIGURE PATHS  (edit these two lines)
 # ─────────────────────────────────────────────────────────────────────────────
-DATA_PATH  = "data/"          # folder containing all LOBSTER CSV files
+DATA_PATH  = "data/"          # folder containing all LOBSTER CSV files from https://data.lobsterdata.com/info/DataSamples.php
 START_DATE = "2012-06-21"     # first date to load (YYYY-MM-DD)
 END_DATE   = "2012-06-21"     # last  date to load (YYYY-MM-DD)
 
@@ -1213,4 +1213,5 @@ if __name__ == "__main__":
     #       data_path="my_data/"
     #   )
     # ──────────────────────────────────────────────────────────────────────
+
     summaries, hawkes_params = run_pipeline()
